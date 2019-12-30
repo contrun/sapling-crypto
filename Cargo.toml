@@ -33,3 +33,7 @@ cc = "1.0"
 [features]
 default = []
 gpu = ["bellperson/gpu"]
+
+[replace]
+"paired:0.16.0" =  { git = "https://github.com/keyvank/pairing.git", rev = "12ad6cc" }
+"ff:0.5.1" = { git = "https://github.com/zkcrypto/ff.git", rev = "95e2723" }
